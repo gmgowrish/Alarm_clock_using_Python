@@ -14,7 +14,7 @@ if alarmAM == "pm":
 while True:
     if alarmH == datetime.datetime.now().hour and alarmM == datetime.datetime.now().minute and alarmS == datetime.datetime.now().second:
         print("playing...")
-        text = "wakeup Gowrish, What you do today can improve all your tomorrows."
+        text = "wakeup ur name, What you do today can improve all your tomorrows."
         engine.setProperty("rate", 100)
         engine.say(text)
         engine.runAndWait()
